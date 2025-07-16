@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import jsapy  as jsa
+import os
+os.system("pip install git+https://github.com/Erik-Martinez/jsapy.git")
 
 st.set_page_config(page_title="Vibration Exposure Calculator", layout="wide")
 st.title("Vibration Exposure Calculator")
